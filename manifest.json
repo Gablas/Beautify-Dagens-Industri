@@ -1,0 +1,12 @@
+{
+    "name": "Beautify Dagens Industri",
+    "version": "0.1",
+    "description": "Removes the annoying, experience blocking and ad blinding header from di.se",
+    "manifest_version": 2,
+    "content_scripts": [
+        {
+            "js": ["content.js"],
+            "matches": ["https://www.di.se/*", "http://www.di.se/*"]
+        }
+    ]
+}
